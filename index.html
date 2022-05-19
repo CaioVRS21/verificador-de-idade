@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <title>Verificador de Idade</title>
+</head>
+<body>
+    <script src="main.js"></script>
+
+    <header id="cabecalho">
+        <h1>Calculadora de Idade</h1>
+    </header>
+
+    <section id="interface" >
+
+        <div id="dados">
+            <form method="post" id="ano" action="#">
+                <label for="ano">Ano de nascimento: </label> <input type="text" id="ano"> <br>
+                <label for="cMasc">Sexo: </label>
+                <input type="radio" name="tSexo" id="cMasc" checked><label for="cMasc">Masculino</label></input> 
+                <input type="radio" name="tSexo" id="cFem"><label for="cFem">Feminino</label></input>
+                <br>
+                <input type="submit" value="verificar"> 
+            </form>
+        </div>
+        <div id="resultados">
+            Preencha os dados acima para para ver os resultados!
+        </div>
+
+    </section>
+
+    <footer id="rodape">
+        <h3>@CursoemVideo - Replicado por <a href="https://github.com/CaioVRS21">Caio Veras &#128083;</a> para seus estudos de Web Dev</h3>
+    </footer>
+    
+</body>
+</html>
