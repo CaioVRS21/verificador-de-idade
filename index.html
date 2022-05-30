@@ -17,18 +17,24 @@
 
     <section id="interface" >
 
-        <div id="dados">
-            <form method="post" id="ano" action="#">
-                <label for="ano">Ano de nascimento: </label> <input type="text" id="ano"> <br>
-                <label for="cMasc">Sexo: </label>
-                <input type="radio" name="tSexo" id="cMasc" checked><label for="cMasc">Masculino</label></input> 
-                <input type="radio" name="tSexo" id="cFem"><label for="cFem">Feminino</label></input>
-                <br>
-                <input type="submit" value="verificar"> 
-            </form>
+        <div>
+            <p>Ano de nascimento: 
+                <input type="number" name="txtano" id="txtano" min="0">
+            </p>
+            <p>Sexo:
+                <input type="radio" name="radsex" id="mas" checked="checked">
+                <label for="mas">Masculino</label>
+                <input type="radio" name="radsex" id="fem">
+                <label for="fem">Feminino</label>
+            </p>
+
+            <p>
+                <input type="button" value="verificar" onclick="verificar()">
+            </p>
         </div>
-        <div id="resultados">
-            Preencha os dados acima para para ver os resultados!
+
+        <div id="res">
+            Preencha os dados acima para ver o resultado!
         </div>
 
     </section>

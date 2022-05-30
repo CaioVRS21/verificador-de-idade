@@ -24,6 +24,10 @@ body a:hover{
     text-decoration: underline;
 }
 
+div{
+    text-align: left;
+}
+
 #interface{
     margin: auto;
 
@@ -39,7 +43,4 @@ body a:hover{
 
     
 }
-
-#resultados{
-    
-}
+  
